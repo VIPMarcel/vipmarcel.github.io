@@ -1,4 +1,4 @@
-  .wobble {
+  p["text"] {
     -webkit-animation-name: wobble;
     animation-name: wobble;
     -webkit-animation-duration: 1s;
