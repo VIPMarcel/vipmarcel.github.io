@@ -7,11 +7,6 @@
     animation-fill-mode: both;
   }
 
-.content {
-    align: center;
-    margin-top: 100px;
-}
-
   @-webkit-keyframes wobble {
     0% {
       -webkit-transform: none;
