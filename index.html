@@ -9,13 +9,13 @@
   </head>
   <body>
     <div class="content">
-      <p id="text">Herzlich Willkommen</p><br>
+      <p class="flipInX" id="text">Herzlich Willkommen</p><br>
       <button class="wobble" type="submit" onclick="changeText()">Drück mich!</button>
       <script>
         var x = 1;
         function changeText() {
-          document.getElementById('text').innerHTML = `Drück mich, nochmal! ( ${x} )`;
           x += 1;
+          document.getElementById('text').innerHTML = "Drück mich, nochmal! ( ${x} )";
         }
       </script>
     </div>
