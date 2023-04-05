@@ -9,10 +9,10 @@
   </head>
   <body>
     <div class="content">
-      <p id="text">Herzlich Willkommen</p><br>
-      <button class="wobble" type="submit" onclick="changeText()">Drück mich!</button>
+      <p id="text" align="center">Herzlich Willkommen</p><br>
+      <button class="wobble" type="submit" align="center" onclick="changeText()">Drück mich!</button>
       <script>
-        var x = 1;
+        var x = 0;
         function changeText() {
           x += 1;
           document.getElementById('text').innerHTML = "Drück mich, nochmal! ( $x )";
