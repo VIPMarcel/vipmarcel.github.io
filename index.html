@@ -8,14 +8,19 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="content">
-      <p class="flipInX" id="text">Herzlich Willkommen</p><br>
+    <div class="flipInX">
+      <p id="text">Herzlich Willkommen</p><br>
       <button class="wobble" type="submit" onclick="changeText()">Drück mich!</button>
+      <button class="flipInX" type="submit" onclick="resetText()">Reset</button>
       <script>
         var x = 1;
         function changeText() {
           x += 1;
           document.getElementById('text').innerHTML = "Drück mich, nochmal! ( ${x} )";
+        }
+        function resetText() {
+          x = 1;
+          document.getElementById('text').innerHTML = "Es wird neu gezählt..";
         }
       </script>
     </div>
